@@ -1,5 +1,5 @@
 ---
-title: "More notes"
+title: "Notes"
 weight: 2
 ---
 
