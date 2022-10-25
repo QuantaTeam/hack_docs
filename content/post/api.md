@@ -4,7 +4,7 @@ toc: true
 weight: 10
 ---
 
-**VERSION 1.0.0**
+**VERSION 1.0.0**. HOST: [https://hack.barklan.com].
 
 ## /api/applications/{application_id}
 
