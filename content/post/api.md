@@ -4,6 +4,8 @@ toc: true
 weight: 10
 ---
 
+**VERSION 1.0.0**
+
 ## /api/applications/{application_id}
 
 Returns one application by specified ID.
