@@ -6,12 +6,9 @@ menu:
     - name: home
       url: /
       weight: 1
-    - name: categories
-      url: "categories/"
+    - name: API
+      url: "api/"
       weight: 2
-    - name: tags
-      url: "tags/"
-      weight: 3
 
 params:
   description: "Hack docs"

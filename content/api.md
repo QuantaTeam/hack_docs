@@ -4,12 +4,12 @@ toc: true
 weight: 10
 ---
 
-**VERSION 1.0.0**. HOST: [https://hack.barklan.com].
+**VERSION 1.0.0**. HOST: https://hack.barklan.com/api
 
-## /api/applications/{application_id}
+### /applications/{application_id} <sup>1.0.0</sup>
 
 Returns one application by specified ID.
 
-## /api/applications/anomalies
+### /applications/anomalies <sup>1.0.0</sup>
 
 Returns list of anomalies including only ID and coordinates. Can return 404 if no anomalies or if anomalies are not yet geo tagged.
