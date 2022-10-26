@@ -10,7 +10,7 @@ weight: 10
 
 Выполни:
 
-```bash
+```powershell
 wsl --install -d Ubuntu
 ```
 
@@ -20,13 +20,13 @@ wsl --install -d Ubuntu
 
 Открой терминал VS Code в папке проекта. Выполни:
 
-```bash
+```powershell
 .\misc\setup_wsl.ps1
 ```
 
 После этого:
 
-```bash
+```powershell
 wsl --shutdown
 ```
 
@@ -34,6 +34,6 @@ wsl --shutdown
 
 Теперь можно релизить проект, выполняя в терминале следующее:
 
-```bash
+```powershell
 .\deploy.ps1
 ```
