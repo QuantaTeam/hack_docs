@@ -1,7 +1,7 @@
 ---
-title: "Start here"
+title: "Запуск проекта"
 toc: true
-weight: 1
+weight: 2
 ---
 
 ## Just
@@ -14,7 +14,7 @@ just <command>
 
 There is also [PyCharm plugin](https://plugins.jetbrains.com/plugin/18658-just), if you must.
 
-## Database
+## База данных
 
 Run database with:
 

@@ -1,11 +1,11 @@
 ---
-title: "PDM"
+title: "Управление пакетным менеджером Python - PDM"
 categories:
   - Backend
 tags:
   - PDM
 toc: true
-weight: 2
+weight: 5
 ---
 
 ## Installation

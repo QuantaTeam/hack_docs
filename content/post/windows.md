@@ -1,5 +1,5 @@
 ---
-title: "Windows Instructions"
+title: "Релиз Frontend части (Windows)"
 toc: true
 weight: 10
 ---
