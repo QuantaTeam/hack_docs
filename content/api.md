@@ -12,6 +12,8 @@ HOST: <https://hack.barklan.com/api> \
 - **версия 1.0.0 - 26 Октября**
 - **версия 1.1.0 - 30 Октября 8:30 PM** \
    Добавлен путь `/applications/`
+- **версия 1.2.0 - 30 Октября 10:00 PM** \
+   Добавлен путь `/applications/meta`
 
 ## Пути
 
@@ -63,6 +65,26 @@ HOST: <https://hack.barklan.com/api> \
  },
     ...
 ]
+```
+
+---
+
+### /applications/meta
+
+Возвращает список метаданных:
+
+```json
+{
+    "defect_category_name": [
+        ...
+    ],
+    "type_of_work_performed": [
+        ...
+    ],
+    "district_code": [
+        ...
+    ],
+}
 ```
 
 ---
