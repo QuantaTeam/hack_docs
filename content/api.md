@@ -9,9 +9,11 @@ HOST: <https://hack.barklan.com/api> \
 
 ## Список изменений
 
-- **версия 1.0.0 - 26 Октября**
+- **версия 1.0.0 - 27 Октября** \
+   Добавлен путь `/applications/{id}` \
+   Добавлен путь `/applications/anomalies`
 - **версия 1.1.0 - 30 Октября 8:30 PM** \
-   Добавлен путь `/applications/`
+   Добавлен путь `/applications`
 - **версия 1.2.0 - 30 Октября 10:00 PM** \
    Добавлен путь `/applications/meta`
 
@@ -25,7 +27,7 @@ HOST: <https://hack.barklan.com/api> \
 
 ---
 
-### /applications/
+### /applications
 
 Возвращает список всех заявок
 
