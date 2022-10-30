@@ -16,6 +16,8 @@ HOST: <https://hack.barklan.com/api> \
    Добавлен путь `/applications`
 - **версия 1.2.0 - 30 Октября 10:00 PM** \
    Добавлен путь `/applications/meta`
+- **версия 1.3.0 - 30 Октября 11:30 PM** \
+   Добавлен ключ "Наименование дефекта" в ответе `/applications/anomalies`
 
 ## Пути
 
