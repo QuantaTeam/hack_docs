@@ -4,12 +4,65 @@ toc: true
 weight: 10
 ---
 
-**VERSION 1.0.0**. HOST: https://hack.barklan.com/api
+HOST: <https://hack.barklan.com/api> \
+Обязательные праметры помечены `*`.
 
-### /applications/{application_id} <sup>1.0.0</sup>
+## Список изменений
 
-Returns one application by specified ID.
+- **версия 1.0.0 - 26 Октября**
+- **версия 1.1.0 - 30 Октября 8:30 PM** \
+   Добавлен путь `/applications/`
 
-### /applications/anomalies <sup>1.0.0</sup>
+## Пути
 
-Returns list of anomalies including only ID and coordinates. Can return 404 if no anomalies or if anomalies are not yet geo tagged.
+---
+
+### /applications/{id}
+
+Возвращает одну заявку по заданному id.
+
+---
+
+### /applications/
+
+Возвращает список всех заявок
+
+#### Параметры запроса
+
+- `offset`: integer - соответствует значению `OFFSET` в SQL запросе
+- `limit`: integer - соответствует значение `LIMIT` в SQL запросе
+- `is_anomaly`: boolean - является ли заявка аномальной
+
+Следующие параметры могут быть переданы несколько раз или в виде массива:
+
+- `defect_category_name`: string - Наименование категории дефекта
+- `type_of_work_performed`: string - Вид выполненных работ
+- `district_code`: string - Код района
+
+Следующие параметры имеют вид строки в формате timestamp по RFC 3339 (пример: `2019-10-12T07:20:50.52+00`):
+
+- `creation_timestamp_start`: string - дата создания заявки должна быть **после** указанного значения
+- `creation_timestamp_end`: string - дата создания заявки должна быть **до** указанного значения
+- `closure_timestamp_start`: string - дата закрытия заявки должна быть **после** указанного значения
+- `closure_timestamp_end`: string - дата закрытия заявки должна быть **до** указанного значения
+
+---
+
+### /applications/anomalies
+
+Возвращает список всех аномальных заявок в данном формате:
+
+```json
+[
+ {
+  "id": 271602,
+  "geo_coordinates": [
+   55.65559387207031,
+   37.46931457519531
+  ]
+ },
+    ...
+]
+```
+
+---
