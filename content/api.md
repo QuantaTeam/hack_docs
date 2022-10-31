@@ -20,6 +20,8 @@ HOST: <https://hack.barklan.com/api> \
    Добавлен ключ "Наименование дефекта" в ответе `/applications/anomalies`
 - **версия 1.4.0 - 31 Октября 2:40 PM** \
    Добавлены параметры `district_name`, `name_of_the_management_company`, `name_of_the_service_organization`, `source_name`, `quality_evaluation` в `/applications` и такие же ключи в ответе `/applications/meta`
+- **версия 1.5.0 - 31 Октября 2:55 PM** \
+   Добавлен параметр `query` в `/applications`
 
 ## Пути
 
@@ -40,6 +42,7 @@ HOST: <https://hack.barklan.com/api> \
 - `offset`: integer - соответствует значению `OFFSET` в SQL запросе
 - `limit`: integer - соответствует значение `LIMIT` в SQL запросе
 - `is_anomaly`: boolean - является ли заявка аномальной
+- `query`: string - текстовый поиск (new in 1.5.0)
 
 Следующие параметры могут быть переданы несколько раз или в виде массива:
 
