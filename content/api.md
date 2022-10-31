@@ -18,6 +18,8 @@ HOST: <https://hack.barklan.com/api> \
    Добавлен путь `/applications/meta`
 - **версия 1.3.0 - 30 Октября 11:30 PM** \
    Добавлен ключ "Наименование дефекта" в ответе `/applications/anomalies`
+- **версия 1.4.0 - 31 Октября 2:40 PM** \
+   Добавлены параметры `district_name`, `name_of_the_management_company`, `name_of_the_service_organization`, `source_name`, `quality_evaluation` в `/applications` и такие же ключи в ответе `/applications/meta`
 
 ## Пути
 
@@ -44,6 +46,11 @@ HOST: <https://hack.barklan.com/api> \
 - `defect_category_name`: string - Наименование категории дефекта
 - `type_of_work_performed`: string - Вид выполненных работ
 - `district_code`: string - Код района
+- `district_name`: string - Наименование района (new in 1.4.0)
+- `name_of_the_management_company`: string - Наименование управляющей компании (new in 1.4.0)
+- `name_of_the_service_organization`: string - Наименование обслуживавшей организации (new in 1.4.0)
+- `source_name`: string - Наименование источника поступления (new in 1.4.0)
+- `quality_evaluation`: string - Оценка качества выполнения работ (new in 1.4.0)
 
 Следующие параметры имеют вид строки в формате timestamp по RFC 3339 (пример: `2021-01-06T12:10:05+00:00`):
 
@@ -80,15 +87,14 @@ HOST: <https://hack.barklan.com/api> \
 
 ```json
 {
-    "defect_category_name": [
-        ...
-    ],
-    "type_of_work_performed": [
-        ...
-    ],
-    "district_code": [
-        ...
-    ],
+    "defect_category_name": [...],
+    "type_of_work_performed": [...],
+    "district_code": [...],
+    "district_name": [...],
+    "name_of_the_management_company": [...],
+    "name_of_the_service_organization": [...],
+    "source_name": [...],
+    "quality_evaluation": [...]
 }
 ```
 
