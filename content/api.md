@@ -39,7 +39,7 @@ HOST: <https://hack.barklan.com/api> \
 
 #### Параметры запроса
 
-- `offset`: integer - соответствует значению `OFFSET` в SQL запросе
+- `skip`: integer - соответствует значению `OFFSET` в SQL запросе
 - `limit`: integer - соответствует значение `LIMIT` в SQL запросе
 - `is_anomaly`: boolean - является ли заявка аномальной
 - `query`: string - текстовый поиск (new in 1.5.0)
