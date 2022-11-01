@@ -24,6 +24,8 @@ HOST: <https://hack.barklan.com/api> \
    Добавлен параметр `query` в `/applications`
 - **версия 2.0.0 - 1 Ноября 10:15 PM** \
    Удалены параметры `closure_timestamp_start` и `closure_timestamp_end` в `/applications`
+- **версия 3.0.0 - 1 Ноября 11:30 PM** \
+   Переименованы все атрибуты в `/applications`, `/applications/{id}`, `/applications/anomalies` на цифры
 
 ## Пути
 
