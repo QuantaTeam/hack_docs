@@ -59,8 +59,6 @@ HOST: <https://hack.barklan.com/api> \
 
 - `creation_timestamp_start`: string - дата создания заявки должна быть **после** указанного значения
 - `creation_timestamp_end`: string - дата создания заявки должна быть **до** указанного значения
-- `closure_timestamp_start`: string - дата закрытия заявки должна быть **после** указанного значения
-- `closure_timestamp_end`: string - дата закрытия заявки должна быть **до** указанного значения
 
 ---
 
