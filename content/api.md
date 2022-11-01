@@ -22,6 +22,8 @@ HOST: <https://hack.barklan.com/api> \
    Добавлены параметры `district_name`, `name_of_the_management_company`, `name_of_the_service_organization`, `source_name`, `quality_evaluation` в `/applications` и такие же ключи в ответе `/applications/meta`
 - **версия 1.5.0 - 31 Октября 2:55 PM** \
    Добавлен параметр `query` в `/applications`
+- **версия 2.0.0 - 1 Ноября 10:15 PM** \
+   Удалены параметры `closure_timestamp_start` и `closure_timestamp_end` в `/applications`
 
 ## Пути
 
