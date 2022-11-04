@@ -1,5 +1,5 @@
 ---
-title: "Backend: Управление пакетным менеджером Python - PDM"
+title: "Backend: Пакетный менеджер Python - PDM"
 categories:
   - Backend
 tags:

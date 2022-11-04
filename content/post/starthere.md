@@ -1,10 +1,12 @@
 ---
-title: "Запуск проекта"
+title: "Запуск проекта и среда разработки"
 toc: true
 weight: 2
 ---
 
-## Just
+## Коллекция команд
+
+Для запуска команд управления проектом используется [`just`](https://github.com/casey/just).
 
 Cross-platfrom alternative to `make`. [Choose any installation method.](https://github.com/casey/just#packages). Use in like so:
 
