@@ -6,7 +6,7 @@ menu:
     - name: "Домой"
       url: /
       weight: 1
-    - name: API
+    - name: Документация к API
       url: "api/"
       weight: 2
 

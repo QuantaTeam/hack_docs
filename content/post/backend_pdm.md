@@ -1,11 +1,11 @@
 ---
-title: "Управление пакетным менеджером Python - PDM"
+title: "Backend: Управление пакетным менеджером Python - PDM"
 categories:
   - Backend
 tags:
   - PDM
 toc: true
-weight: 5
+weight: 12
 ---
 
 ## Installation
@@ -68,6 +68,6 @@ Mark `__pypackages__/3.10/lib` as [Sources Root](https://www.jetbrains.com/help/
 
 Additionally, if you want to use tools from the environment (e.g. `pytest`), you have to add the `__pypackages__/3.10/bin` directory to the `PATH` variable in the corresponding run/debug configuration.
 
-### VSCode/Neovim/etc...
+### VSCode/Neovim/etc
 
 Figure it out yourself, you punk!
