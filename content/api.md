@@ -26,6 +26,8 @@ HOST: <https://hack.barklan.com/api> \
    Удалены параметры `closure_timestamp_start` и `closure_timestamp_end` в `/applications`
 - **версия 3.0.0 - 1 Ноября 11:30 PM** \
    Переименованы все атрибуты в `/applications`, `/applications/{id}`, `/applications/anomalies` на цифры
+- **версия 3.1.0 - 5 Ноября 01:00** \
+   Добавлен параметр `with_comment` в `/applications`
 
 ## Пути
 
@@ -47,6 +49,7 @@ HOST: <https://hack.barklan.com/api> \
 - `limit`: integer - соответствует значение `LIMIT` в SQL запросе
 - `is_anomaly`: boolean - является ли заявка аномальной
 - `query`: string - текстовый поиск (new in 1.5.0)
+- `with_comment`: boolean - есть ли комментарии
 
 Следующие параметры могут быть переданы несколько раз или в виде массива:
 
