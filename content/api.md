@@ -30,6 +30,8 @@ HOST: <https://hack.barklan.com/api> \
    Добавлен параметр `with_comment` в `/applications`
 - **версия 3.2.0 - 5 Ноября 12:08 PM** \
     Добавлен параметр `result_desc` в `/applications`
+- **версия 3.3.0 - 5 Ноября 13:30** \
+    Добавлен параметр `urgency` в `/applications`
 
 ## Пути
 
@@ -52,7 +54,6 @@ HOST: <https://hack.barklan.com/api> \
 - `is_anomaly`: boolean - является ли заявка аномальной
 - `query`: string - текстовый поиск (new in 1.5.0)
 - `with_comment`: boolean - есть ли комментарии
-- `result_desc`: string - результативность
 
 Следующие параметры могут быть переданы несколько раз или в виде массива:
 
@@ -64,6 +65,8 @@ HOST: <https://hack.barklan.com/api> \
 - `name_of_the_service_organization`: string - Наименование обслуживавшей организации (new in 1.4.0)
 - `source_name`: string - Наименование источника поступления (new in 1.4.0)
 - `quality_evaluation`: string - Оценка качества выполнения работ (new in 1.4.0)
+- `result_desc`: string - результативность
+- `urgency`: string - срочность
 
 Следующие параметры имеют вид строки в формате timestamp по RFC 3339 (пример: `2021-01-06T12:10:05+00:00`):
 
