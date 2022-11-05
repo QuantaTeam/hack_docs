@@ -28,6 +28,8 @@ HOST: <https://hack.barklan.com/api> \
    Переименованы все атрибуты в `/applications`, `/applications/{id}`, `/applications/anomalies` на цифры
 - **версия 3.1.0 - 5 Ноября 01:00** \
    Добавлен параметр `with_comment` в `/applications`
+- **версия 3.2.0 - 5 Ноября 12:08 PM** \
+    Добавлен параметр `result_desc` в `/applications`
 
 ## Пути
 
@@ -50,6 +52,7 @@ HOST: <https://hack.barklan.com/api> \
 - `is_anomaly`: boolean - является ли заявка аномальной
 - `query`: string - текстовый поиск (new in 1.5.0)
 - `with_comment`: boolean - есть ли комментарии
+- `result_desc`: string - результативность
 
 Следующие параметры могут быть переданы несколько раз или в виде массива:
 
