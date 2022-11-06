@@ -2,7 +2,8 @@
 title: "Наша философия решения"
 toc: true
 next: true
-weight: 15
+weight: 1
+bold: true
 ---
 
 ## Постановка задачи
