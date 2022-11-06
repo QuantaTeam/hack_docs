@@ -6,40 +6,12 @@ weight: 2
 
 ## Коллекция команд
 
-Для запуска команд управления проектом используется [`just`](https://github.com/casey/just).
+Для запуска команд управления проектом используется [`just`](https://github.com/casey/just) как кросс-платформенная альтернатива `make`.
 
-Cross-platfrom alternative to `make`. [Choose any installation method.](https://github.com/casey/just#packages). Use in like so:
+[Выбор вариантов установки](https://github.com/casey/just#packages). Использование:
 
 ```bash
 just <command>
 ```
 
-There is also [PyCharm plugin](https://plugins.jetbrains.com/plugin/18658-just), if you must.
-
-## База данных
-
-Run database with:
-
-```bash
-just up-db
-```
-
-Run migrations with:
-
-```bash
-just db-migrate
-```
-
-Create a new migration with:
-
-```bash
-just db-makemigrations <migration_name>
-```
-
-You can view database contents by visiting [local pgweb instance](http://0.0.0.0:5055/) or using [pgcli](https://www.pgcli.com/) by running `just pgcli`.
-
-To start over run:
-
-```bash
-docker compose down -v --remove-orphans
-```
+Так же есть [PyCharm plugin](https://plugins.jetbrains.com/plugin/18658-just).
