@@ -11,8 +11,8 @@ weight: 15
 ## Анализ данных
 
 Анализ данных был проведен с использованием инструментов языка Python.
-Ссылка на анализ: 
-
+Ссылка на анализ: https://colab.research.google.com/drive/186RlUu5Sz_kN6QaBp44LP0UTCf4ZUi6x?usp=sharing
+Ссылка на данные: https://drive.google.com/file/d/1js39tsfGu4FVcER8fQ-p8lku0WkHDFtA/view?usp=sharing
 ## Итоги анализа данных
 
 Проведенная работа позволила определить, что в данной задаче не требуется применение
