@@ -5,7 +5,11 @@ next: true
 weight: 11
 ---
 
-В качестве базы данных используется PostgreSQL 15.
+В качестве базы данных используется PostgreSQL 15. Для управления миграциями используется [`migrate`](https://github.com/golang-migrate/migrate).
+
+## Схема
+
+Основная таблица - `application`, содержащая данные о заявках.
 
 ## Управление
 
@@ -34,5 +38,3 @@ To start over run:
 ```bash
 docker compose down -v --remove-orphans
 ```
-
-## Схема
