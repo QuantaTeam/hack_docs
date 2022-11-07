@@ -3,6 +3,7 @@ title: "Backend: Применяемые методы оптимизации пу
 toc: true
 next: true
 weight: 14
+draft: true
 ---
 
 ## Async Python
