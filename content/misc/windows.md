@@ -2,6 +2,7 @@
 title: "Релиз Frontend части (Windows)"
 toc: true
 weight: 100
+draft: true
 ---
 
 ## 1. Установка WSL
